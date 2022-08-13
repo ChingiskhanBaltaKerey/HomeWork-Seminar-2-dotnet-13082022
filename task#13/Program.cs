@@ -3,28 +3,40 @@
 // 78 -> No
 // 32679 -> 6
 
+void Ex01 ()
+{
 int a = 645;
-if (a > 99)
-{
-int n = a % 10;     
-Console.WriteLine (n);
-} 
-else 
-Console.WriteLine ("No 3rd number");
-int b = 78;
-if (b > 99) 
-{
-int n1 = b % 10;
-Console.Writeline (n1);
+int a1 = a % 10;
+Console.WriteLine (a1);
 }
-else 
-Console.Writeline ("No 3rd number");
+Ex01 ();
+void Ex02 ()
+{
+    int b = 78;
+    if (b > 99)
+    {
+        int b1 = b % 10;
+        Console.WriteLine (b1);
+    }
+    else
+    {
+        Console.WriteLine ("No 3rd number");
+    } 
+
+}
+Ex02 ();
+
+void Ex03()
+{
 int c = 32679; 
 if (c > 99)
 { 
-int n2 = (c / 100) % 10;
-Console.Writeline (n2);
+int c1 = (c / 100);
+int c2 = c1 % 10;
+Console.WriteLine (c1);
 }
 else 
 Console.WriteLine ("No 3rd number");
+}
+Ex03 ();
 
